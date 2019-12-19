@@ -1,0 +1,19 @@
+1.Change file on the VM /etc/ssh/sshd_config
+         PermitRootLogin yes
+2.start Terminal.app
+3.right click New remote connection
+4. '+' add server and choose it
+5. type 'User:' root
+6. connect
+7. adduser new_user
+8. exit
+9. type 'User:' new_user
+10. connect
+
+////With ssh session////
+1.change file on the VM /etc/ssh/sshd_config
+         PermitRootLogin yes
+2.ssh root@address
+3.adduser new_user
+4.exit root@address
+5.connect new_user@address

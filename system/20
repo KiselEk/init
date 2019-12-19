@@ -1,0 +1,3 @@
+less /etc/passwd
+
+compgen -u

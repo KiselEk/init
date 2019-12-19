@@ -1,0 +1,16 @@
+#!/bin/bash
+
+who | awk '{print$1}' | grep -v root 
+
+echo ""
+
+echo "Please chek users: "    
+
+echo ""
+
+read name 
+
+killall -u $name #kill -9
+
+userdel $name
+

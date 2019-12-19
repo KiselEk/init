@@ -1,0 +1,1 @@
+dig -x $(ipconfig getifaddr en0) +short
